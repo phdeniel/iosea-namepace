@@ -1,5 +1,8 @@
-cmake_minimum_required(VERSION 2.6.4)
+#cmake_minimum_required(VERSION 2.6.4)
+#cmake_maximum_required(VERION 3.30) 
 cmake_policy(SET CMP0017 NEW)
+
+set_property(GLOBAL PROPERTY ALLOW_DUPLICATE_CUSTOM_TARGETS ON)
 
 SET(WITHIN_IOSEA_NAMESPACE_REPO TRUE)
 PROJECT(iosea-namespace C)
